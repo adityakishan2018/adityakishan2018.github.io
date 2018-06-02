@@ -1,9 +1,9 @@
 body{
     background :grey;
-          background-color: #a94e4eb5;
+    background-color: #a94e4eb5;
     color: black;
     box-shadow: 18px 20px 20px 20px black;
-    margin:0;
+    margin:0; 
     background: url(http://avante.biz/wp-content/uploads/Background-Images-For-Websites/Background-Images-For-Websites-003.jpg);
     background-repeat: no-repeat;
     background-size: cover;
