@@ -2,7 +2,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - rspec HelloWorld_spec.rb
 artifacts:
   files:
     - '**/*'
