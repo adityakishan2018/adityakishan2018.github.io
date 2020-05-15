@@ -1,8 +1,9 @@
-version: 0.1
+version: 0.2         
 phases:
-pre_build:
-commands:
-- composer update
-build:
-commands:
-- php artisan serve
+  build:
+    commands:
+      - rspec HelloWorld_spec.rb
+artifacts:
+  files:
+    - '**/*'
+  name: myname-$AWS_REGION 
